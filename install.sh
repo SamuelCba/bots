@@ -41,7 +41,7 @@ fi
 sudo apt install -y unzip wget
 
 # 5. Instalar dependencias Python
-pip3 install --upgrade pip
+pip3 install --upgrade pip --break-system-packages
 pip3 install selenium webdriver-manager --break-system-packages
 
 # 6. Dar permisos de ejecución al script principal
